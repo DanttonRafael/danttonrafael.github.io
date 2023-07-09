@@ -1,0 +1,84 @@
+/* Estilo para o contêiner do calendário */
+#calendar {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+
+  }
+  
+  /* Estilo para o calendário */
+  .calendar {
+    width: 300px;
+    font-family: sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #FFE4E1;
+    color: #000;
+      /* alinhem o calendario no meio da tela */
+        margin: 0 auto;
+        /*coloque uma margem para separar o calendario do topo */
+        margin-top: 200px;
+
+    /*aumente o tamanho do calendario para ocupar 75% da tela */
+    width: 75%;
+
+  }
+  
+  /* Estilo para o cabeçalho do calendário */
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E6E6FA;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  /* Estilo para os dias da semana no cabeçalho do calendário */
+  .calendar-weekday {
+    text-align: center;
+    /* colocque o display em linha para que os dias da semana fiquem em uma linha só */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    /* coloque cada dia da semana em uma linha só */
+    width: calc(100% / 7);
+    color: #000;
+    background-color: #D8BFD8;
+
+  }
+  
+  /* Estilo para os dias do calendário */
+  .calendar-day {
+    width: calc(100% / 7);
+    height: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Estilo para os dias do calendário que são fins de semana */
+  .calendar-day.weekend {
+    color: #000;
+  }
+  
+  /* Estilo para os dias do calendário que não pertencem ao mês atual */
+  .calendar-day.disabled {
+    color: #E6E6FA;
+    cursor: default;
+  }
+  
+  /* Estilo para os botões correspondentes às datas especificadas */
+  .marked-button {
+    background-color: #D8BFD8;
+    color: #000;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 2px;
+    border-radius: 3px;
+  }
+  

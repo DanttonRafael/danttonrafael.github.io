@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+.container {
+    background-color: rgba(255, 228, 225, 0.8);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1 {
+    color: black; /* Alterado para preto */
+    font-family: "Century Schoolbook", serif;
+}
+
+p {
+    color: black; /* Alterado para preto */
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+}
+
+button {
+    background-color: #FFF0F5;
+    color: black; /* Alterado para preto */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#imageContainer {
+    margin-top: 20px;
+}
+
+#imageContainer img {
+    max-width: 400px;
+}

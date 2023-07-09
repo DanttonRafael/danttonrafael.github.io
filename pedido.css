@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .content {
+    text-align: center;
+    position: relative;
+  }
+  
+  #naoButton {
+    transition: transform 0.3s ease;
+  }
+  
+  #naoButton:hover {
+    transform: translate(
+      calc(100vw - 100%),
+      calc(100vh - 100%)
+    );
+  }
+/* Aumenta o tamanho dos botões */
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}

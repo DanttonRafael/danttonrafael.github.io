@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boiolas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 style="font-family: 'Century Schoolbook', serif;">27 de Maio de 2023</h1>
+        <p>Aqui, implorei para o meu pai me levar para te ver porque estava com muita saudade (sempre sinto falta de você). Cheguei lá e você tinha levado o Rubinho. Fomos à sorveteria e depois para a "casa". À noite, fizemos pasteis e bebemos, na minha opinião, foi uma das melhores vezes em que nos encontramos! Não vou entrar em detalhes da nossa noite, sei que você se lembra muito bem. Todas as vezes em que acordo ao seu lado, penso por alguns segundos que poderia ser assim por uma vida inteira, e novamente você fazendo café da manhã para mim. Amo ser mimada por você e amo te mimar, isso não tem preço! </p>
+        <button id="back-bnt">Voltar</button>
+        <div id="imageContainer"></div>
+    </div>
+
+    <script>
+        const imageContainer = document.getElementById('imageContainer');
+        const backBtn = document.getElementById('back-bnt');
+
+        backBtn.addEventListener('click', () => {
+            window.location.href = 'calendar.html';
+        });
+    </script>
+</body>
+
+</html>

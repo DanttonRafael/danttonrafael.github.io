@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boiolas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 style="font-family: 'Century Schoolbook', serif;">09 de Julho de 2023</h1>
+        <p>Dia de oficializar</p> <br>
+        <h2>Insira uma foto aqui.</h2>
+        <p>Para saber o que acontece nesse dia clique no botao abaixo</p>
+        <button id="back-bnt">Descubra</button>
+        <div id="imageContainer"></div>
+    </div>
+
+    <script>
+        const imageContainer = document.getElementById('imageContainer');
+        const backBtn = document.getElementById('back-bnt');
+
+        backBtn.addEventListener('click', () => {
+            window.location.href = 'pedido.html';
+        });
+    </script>
+</body>
+
+</html>
