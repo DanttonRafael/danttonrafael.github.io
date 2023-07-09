@@ -23,3 +23,10 @@ function moveButton() {
   naoButton.style.left = `${randomX}px`;
   naoButton.style.top = `${randomY}px`;
 }
+
+
+// Se clicar em "Sim", exibe vai para uma pagina com um texto
+simButton.addEventListener('click', function() {
+    window.location.href = 'aceite.html';
+    }
+);
